@@ -1,4 +1,4 @@
-function body(card){
+function body(card) {
   return `
   
 <!DOCTYPE html>
@@ -34,7 +34,7 @@ function body(card){
 
             ${card}
     
-        
+      
       </div>
       <div class="col-sm-2"></div>
     </section>
@@ -45,5 +45,4 @@ function body(card){
   `;
 }
 
-
-module.exports = body
+module.exports = body;
